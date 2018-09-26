@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+#app {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#app>h3 {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#app>h3:before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    right: 0;
+    top: 50%;
+    background-color: #999;
+}
+
+#app>h3:after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    left: 0;
+    top: 50%;
+    background-color: #999;
+}
+
+.enter {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.enter .left {
+    width: 10%;
+}
+
+.enter .left p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #999;
+    padding-top: 20px;
+    height: 21px;
+    line-height: 21px;
+}
+
+.enter .right {
+/*    padding-left: 70px;*/
+    width: 90%;
+}
+
+.enter .right input {
+    height: auto;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.enter .right .add {
+    width: 10%;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid blue;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.enter .right textarea {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #333;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+}
+
+.enter .right .number {
+    font-size: 13px;
+    font-weight: 300;
+    color: #999;
+}
+
+.main .left {
+    width: 10%;
+}
+
+.main .left p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #999;
+    padding-top: 20px;
+    height: 21px;
+    line-height: 21px;
+}
+
+.main .right {
+    width: 90%;
+}
+
+.main .right h4 {
+    height: auto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.main .right .article {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.main .right .article-bottom .number {
+    font-size: 13px;
+    font-weight: 300;
+    color: #999;
+}
+
+.main .right .article-bottom .del {
+    cursor: pointer;
+}
